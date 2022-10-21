@@ -1,0 +1,2 @@
+66.249.64.133 - - [07/Sep/2022:20:18:19 -0400] "GET /robots.txt HTTP/1.1" 404 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.64.159 - - [07/Sep/2022:20:18:23 -0400] "GET /ads.txt HTTP/1.1" 404 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

@@ -1,0 +1,24 @@
+; cPanel first:102.0.15 (update_time):1652923917 Cpanel::ZoneFile::VERSION:1.3 hostname:toothless.dragonteach.com latest:102.0.15
+; Zone file for ysousa-monteiro.dragonteach.com
+$TTL 14400
+ysousa-monteiro.dragonteach.com.	86400	IN	SOA	ns1.dragonteach.com.	kiera+mrk.wileysol.com.	(
+						2022051902 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+ysousa-monteiro.dragonteach.com.	86400	IN	NS	ns1.dragonteach.com.
+ysousa-monteiro.dragonteach.com.	86400	IN	NS	ns2.dragonteach.com.
+ysousa-monteiro.dragonteach.com.	14400	IN	A	52.2.164.245
+ysousa-monteiro.dragonteach.com.	14400	IN	MX	0	ysousa-monteiro.dragonteach.com.
+mail	14400	IN	CNAME	ysousa-monteiro.dragonteach.com.
+www	14400	IN	CNAME	ysousa-monteiro.dragonteach.com.
+ftp	14400	IN	A	52.2.164.245
+ysousa-monteiro.dragonteach.com.	14400	IN	TXT	"v=spf1 +a +mx +ip4:52.2.164.245 ~all"
+webdisk	14400	IN	A	52.2.164.245
+cpcontacts	14400	IN	A	52.2.164.245
+cpanel	14400	IN	A	52.2.164.245
+cpcalendars	14400	IN	A	52.2.164.245
+webmail	14400	IN	A	52.2.164.245
+whm	14400	IN	A	52.2.164.245
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA21inE07SutEffUofZuvrcONPOmZC0RBLtGVTSGo5qrHYuRm5Th/IsrG9+JREnvpztEqw/Kg4nvNtaFG8cr2UuPrw18wE1en/f9FN2E9/6X/gCv79zSqSNRqQf+buGNZEyBtUlvGWSrAxPRtMOZceQ/KkrLv8gnNrrNouUULeeInK3vNtFseH6Zv1QXwySnsTY" MxeKMl19qcB0TVUpWrcrQGkK4BKoS7IRTNEycxNbSDs9d4BYPCHk7z8SxxKqEUz242YS1uJ4cqIrHybQHmZlRwJIwaKjQ8PGbzqHvj8LphHsEaY16dxL7CPGA6qZmtI8vSy4RscjTLdpOBQA/QDOwIDAQAB\;

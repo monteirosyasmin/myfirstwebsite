@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/mrk1469/public_html
+group: mrk1469
+hascgi: 1
+homedir: /home/mrk1469
+ip: 172.31.11.250
+ipv6: ~
+owner: mrk
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@ysousa-monteiro.dragonteach.com
+serveralias: mail.ysousa-monteiro.dragonteach.com www.ysousa-monteiro.dragonteach.com
+servername: ysousa-monteiro.dragonteach.com
+ssl: 1
+usecanonicalname: 'Off'
+user: mrk1469
+userdirprotect: ''
